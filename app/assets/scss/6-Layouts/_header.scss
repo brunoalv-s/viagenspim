@@ -1,0 +1,162 @@
+html,
+body
+{       
+    font-family: 'PetrobrasSansRegular';
+    
+}
+.bg-login
+{
+    background-color:#0F994F;
+    background:url(../img/bg-verde-2.png) top center repeat;
+}
+
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*Medias queries */
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.input-group-btn>.btn:active, .input-group-btn>.btn:focus, .input-group-btn>.btn:hover {
+    outline: none;
+}
+a, a:focus, button, button:focus
+{
+   outline: none;
+}
+
+
+.zera-pad{padding-left:0px; padding-right:0px;}
+.pad-l{padding-left:0px;}
+.pad-r{padding-right:0px;}
+.width-100{ width:100%;}
+.pad-top-80{padding-top:80px;}
+.pad-top-70{padding-top:70px;}
+.pad-top-60{padding-top:60px;}
+.pad-top-50{padding-top:50px;}
+.pad-top-40{padding-top:40px;}
+.pad-top-20{padding-top:20px;}
+.pad-top-30{padding-top:30px;}
+.pad-top-15{padding-top:15px;}
+.pad-top-10{padding-top:10px;}
+.pad-top-5{padding-top:5px;}
+
+.pad-bot-80{padding-bottom:80px;}
+.pad-bot-50{padding-bottom:50px;}
+.pad-bot-20{padding-bottom:20px;}
+.pad-bot-10{padding-bottom:10px !important; }
+
+.pad-60{padding-left:60px; padding-right:60px;}
+.pad-30{padding-left:30px; padding-right:30px;}
+.pad-20{padding-left:20px; padding-right:20px;}
+
+
+.marg-top-60{margin-top:60px;}
+.marg-top-30{margin-top:30px;}
+.marg-top-20{margin-top:20px;}
+
+
+.nav-viagens
+{
+
+    background: #28bf58; 
+    background: -moz-linear-gradient(left,  #28bf58 0%, #1caf54 100%); 
+    background: -webkit-linear-gradient(left,  #28bf58 0%,#1caf54 100%); 
+    background: linear-gradient(to right,  #28bf58 0%,#1caf54 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28bf58', endColorstr='#1caf54',GradientType=1 );    
+    border: none;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color:#076938;
+    font-family: PetrobrasSansXtraBold;
+    font-weight: 900;
+    font-size: 15px;
+}
+.nav-viagens .navbar-brand {
+    color: #fff;
+    font-family: PetrobrasSansXtraBold;
+    font-weight: 900;
+    font-size: 14px;
+    padding-top: 22px;
+}
+
+.nav-viagens .navbar-nav
+{
+    padding-top: 7px;
+    float: right;
+}
+
+.nav-viagens .navbar-nav>li:hover
+{
+
+    background: #0e964e; 
+    background: -moz-linear-gradient(left,  #0e964e 0%, #37d55e 100%); 
+    background: -webkit-linear-gradient(left,  #0e964e 0%,#37d55e 100%); 
+    background: linear-gradient(to right,  #0e964e 0%,#37d55e 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e964e', endColorstr='#37d55e',GradientType=1 ); 
+
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.nav-viagens .navbar-toggle {
+    border-color: #fff;
+    margin-top: 7px;
+    padding: 13px 10px;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+
+
+@media (max-width: 990px) {
+   
+    .nav-viagens .navbar-nav 
+    {
+        float: none;        
+    } 
+
+}

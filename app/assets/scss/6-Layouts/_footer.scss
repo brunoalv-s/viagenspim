@@ -1,0 +1,197 @@
+// ====================================================================
+// Footer
+// ====================================================================
+.bt-verde
+{
+	text-transform: uppercase;
+	font-family: 'PetrobrasSansXtraBold';
+	font-weight: 900;
+	font-size: 15px;
+	border: none;
+	color: #FFFFFF;
+	padding: 8px 30px;
+	
+	background: #30b363; 
+	background: -moz-linear-gradient(left, #30b363 0%, #4cda6e 100%);
+	background: -webkit-linear-gradient(left, #30b363 0%,#4cda6e 100%); 
+	background: linear-gradient(to right, #30b363 0%,#4cda6e 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30b363', endColorstr='#4cda6e',GradientType=1 ); 
+
+}
+.bt-branco
+{
+	text-transform: uppercase;
+	font-family: 'PetrobrasSansXtraBold';
+	font-weight: 900;
+	font-size: 15px;
+	border: none;
+	background: #FFFFFF;
+	color: $txt-verde;
+	padding: 8px 40px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+.container-footer
+{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1090px;
+}
+
+
+div.wrap {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background:#fff url(../img/bg-verde.png) no-repeat;
+	background-position: 50% bottom;
+	background-size: 100% 60%;
+}
+
+div.wrap div.content {
+	min-height: calc(100vh - 69px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px 0;
+}
+
+div.wrap div.footer {
+	min-height: 69px;
+	width: 100%;
+	background:url(../img/bg-footer.png) center center no-repeat;
+	text-transform: uppercase;
+	color: $txt-verde;
+	font-size: 12px;
+	font-family: 'PetrobrasSansXtraBold';
+	font-weight: 900;	
+}
+
+
+
+div.wrap-home div.footer {
+	min-height: 69px;
+	width: 100%;
+	margin-top: 20px;
+	background:url(../img/bg-footer-internas.png) center center no-repeat;
+	text-transform: uppercase;
+	color: $txt-verde;
+	font-size: 12px;
+	font-family: 'PetrobrasSansXtraBold';
+	font-weight: 900;
+}
+
+.wrap-home
+{
+	.footer
+	{
+		.txt-footer
+		{
+			padding-top: 35px;
+		}
+		.logo-footer
+		{
+			padding-top: 15px;
+		}
+	}
+}
+
+.modal
+{
+	.modal-content
+	{
+		border: none;
+
+		.modal-header
+		{
+			background: #30b363; 
+			background: -moz-linear-gradient(left, #30b363 0%, #4cda6e 100%);
+			background: -webkit-linear-gradient(left, #30b363 0%,#4cda6e 100%); 
+			background: linear-gradient(to right, #30b363 0%,#4cda6e 100%); 
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30b363', endColorstr='#4cda6e',GradientType=1 );
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+
+			.modal-title
+			{			
+				color: #FFFFFF;
+				text-align: center;
+				font-family: 'PetrobrasSansXtraBold';
+				font-weight: 900;
+			}
+			.close
+			{
+				color:#FFFFFF;
+				opacity: 1;
+			}
+		}
+		.modal-body
+		{
+			padding: 20px 40px 30px 40px;
+			p
+			{
+				font-family: 'PetrobrasSansRegular';
+				font-size: 16px;
+				color:#9B9B9B;
+				margin-bottom: 10px;
+			}
+
+			.form-control
+			{
+				height: 50px;
+				border-color: #A1D7B7;
+				color:#19AC53;
+				font-family: 'PetrobrasSansRegular';
+			}
+
+			.login-cpf
+			{
+				background:url(../img/ico-cpf.png) center left no-repeat;
+				padding-left: 35px;
+			}
+			.login-cpf::-webkit-input-placeholder { 
+				color: $txt-verde;
+				font-family: 'PetrobrasSansBold';
+				font-weight: bold;	
+				opacity: 1;	  
+				font-size: 14;
+			}
+		}
+	}
+	.bt-modal
+	{
+		text-align: center;
+		z-index: 99;
+		position: relative;
+		margin-top: -20px;
+	}
+}
+
+@media (max-width: 1400px) {
+		
+		
+}
+
+
+
+textarea
+{
+	resize: none;
+}
+
+#loading { position: fixed; background-color: rgba(0, 0, 0, 0.5); background-image: url("../img/loading.gif"); background-repeat: no-repeat; background-position: center center; background-size: 50px auto; top: 0; right: 0; bottom: 0; left: 0; z-index: 1000000000; display: none; }
+
+object[type="application/gas-events-uni"]
+{
+	position:fixed;
+	top:0;
+	left:0;
+	
+}
+
+

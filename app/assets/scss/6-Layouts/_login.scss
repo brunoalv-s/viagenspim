@@ -1,0 +1,84 @@
+
+
+.top-login
+{
+	background-color:#FFFFFF;
+}
+.logo-top
+{
+	padding-bottom:90px;
+}
+
+.bg-verde
+{	
+	background:url(../img/bg-verde.png) top center no-repeat;	
+	min-height:500px;	
+}
+	.login
+	{
+		
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 620px;
+		background-color: #FFFFFF;
+		padding: 30px 50px 30px 50px;
+		box-shadow: 0px 0px 20px 0px rgba(33,180,85,0.2);
+		border-radius: 10px;
+	}
+		.login h3
+		{
+			font-size: 28px;
+			font-family: 'PetrobrasSansXtraBold';
+			font-weight: 900;
+			text-align: center;
+			color: $txt-verde;
+		}
+		.login .form-control
+		{
+			height: 50px;
+			border-color: #A1D7B7;
+			color:#19AC53;
+			font-family: 'PetrobrasSansRegular';
+		}
+
+		.login .login-cpf
+		{
+			background:url(../img/ico-cpf.png) center left no-repeat;
+			padding-left: 35px;
+		}
+		.login .login-senha
+		{
+			background:url(../img/ico-senha.png) center left no-repeat;
+			padding-left: 35px;
+		}
+
+		.login .login-cpf::-webkit-input-placeholder { 
+			color: $txt-verde;
+			font-family: 'PetrobrasSansBold';
+			font-weight: bold;	
+			opacity: 1;	  
+			font-size: 14;
+		}
+		.login .login-senha::-webkit-input-placeholder { 
+			color: $txt-verde;
+			font-family: 'PetrobrasSansBold';
+			font-weight: bold;	
+			opacity: 1;	  
+			font-size: 14;
+		}
+
+		
+
+		.esq-senha
+		{
+			font-family: 'PetrobrasSansBold';
+			font-weight: bold;
+			font-size: 14px;
+			color: $txt-verde;
+		}
+			.esq-senha a
+			{				
+				color:#0C8542;
+			}
+
+

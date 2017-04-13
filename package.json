@@ -1,0 +1,29 @@
+{
+  "name": "viagenspim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-clean": "*",
+    "gulp-autoprefixer": "*",
+    "es6-promise": "*",
+    "gulp-csscomb": "*",
+    "gulp-clean-css": "*",
+    "gulp-browserify": "*",
+    "gulp-uglify": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "*",
+    "gulp-cache": "*",
+    "browser-sync": "*",
+    "gulp-notify": "*"
+  },
+  "license": "ISC"
+}

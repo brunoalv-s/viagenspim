@@ -1,0 +1,109 @@
+
+// div.wrap-home {
+// 	min-height: 100vh;
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: space-between;
+// 	flex-direction: column;
+
+// }
+
+// div.wrap-home div.content {
+// 	display: flex;
+// 	flex-direction: column;
+// 	padding: 40px 0;
+// 	height: 100%;
+// 	min-height: calc(100vh - 200px);
+// 	width: 100%;
+// }
+
+
+
+
+.title-internas
+{
+	border-bottom: solid 1px #EAEAEA;
+	padding-bottom: 15px;
+
+	h1
+	{
+		font-size: 28px;
+		font-family: 'PetrobrasSansXtraBold';
+		font-weight: 900;
+		text-align: center;
+		color: $txt-verde;
+	}
+
+}
+
+.sub-titles-internas
+{
+	padding-top: 30px;
+
+	p
+	{
+		font-size: 18px;
+		color: $txt-cinza;	
+		text-align: center;
+		margin-bottom: 0px;	
+	}
+}
+
+.lista-eventos
+{
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);	
+	border-radius: 10px;
+
+	.eventos-data
+	{
+		width: 52px;
+		height: 29px;
+		background:url(../img/bg-data.png) center center no-repeat;
+		position: absolute;
+		margin-top: 15px;
+		margin-left: 15px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-family: 'PetrobrasSansBold';
+		font-weight: bold;
+		padding-left: 10px;
+		padding-top: 5px;
+	}
+	.ico-mais
+	{
+		padding-right: 15px;
+		margin-top: -30px;
+		position: relative;
+	}
+
+	.img-evento
+	{
+		img
+		{
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+	}
+
+	.text-evento
+	{
+		padding: 40px 15px 20px 15px;		
+
+		h2
+		{
+			font-family: 'PetrobrasSansXtraBold';
+			font-weight: 900;
+			font-size: 20px;
+			color: $txt-cinza;
+		}
+		p
+		{
+			font-family: 'PetrobrasSansRegular';
+			font-size: 14px;
+			color: $txt-cinza-c;
+			margin-bottom: 5px;
+			line-height: 18px;
+		}
+	}
+	
+}

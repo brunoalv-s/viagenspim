@@ -1,0 +1,168 @@
+// ====================================================================
+// Settings
+// ====================================================================
+
+// -------------------------------------
+// Fonts
+// -------------------------------------
+
+$font-family--sans-serif : "Helvetica", "Arial", sans-serif;
+$font-family--serif      : "Georgia", "Times New Roman", "Times", serif;
+$font-family--monospace  : "Consolas", "Liberation Mono", "Courier", monospace;
+
+$font-family--primary    : $font-family--sans-serif;
+$font-family--secondary  : $font-family--serif;
+
+
+
+@font-face {
+    font-family: 'PetrobrasSansLight';
+    src: url('../fonts/PetrobrasSans/Light/PetrobrasSansLight.eot');
+    src: url('../fonts/PetrobrasSans/Light/PetrobrasSansLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PetrobrasSans/Light/PetrobrasSansLight.woff2') format('woff2'),
+         url('../fonts/PetrobrasSans/Light/PetrobrasSansLight.woff') format('woff'),
+         url('../fonts/PetrobrasSans/Light/PetrobrasSansLight.ttf') format('truetype'),
+         url('../fonts/PetrobrasSans/Light/PetrobrasSansLight.svg#PetrobrasSansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PetrobrasSansRegular';
+    src: url('../fonts/PetrobrasSans/Regular/PetrobrasSansRegular.eot');
+    src: url('../fonts/PetrobrasSans/Regular/PetrobrasSansRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PetrobrasSans/Regular/PetrobrasSansRegular.woff2') format('woff2'),
+         url('../fonts/PetrobrasSans/Regular/PetrobrasSansRegular.woff') format('woff'),
+         url('../fonts/PetrobrasSans/Regular/PetrobrasSansRegular.ttf') format('truetype'),
+         url('../fonts/PetrobrasSans/Regular/PetrobrasSansRegular.svg#PetrobrasSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PetrobrasSansBold';
+    src: url('../fonts/PetrobrasSans/Bold/PetrobrasSansBold.eot');
+    src: url('../fonts/PetrobrasSans/Bold/PetrobrasSansBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PetrobrasSans/Bold/PetrobrasSansBold.woff2') format('woff2'),
+         url('../fonts/PetrobrasSans/Bold/PetrobrasSansBold.woff') format('woff'),
+         url('../fonts/PetrobrasSans/Bold/PetrobrasSansBold.ttf') format('truetype'),
+         url('../fonts/PetrobrasSans/Bold/PetrobrasSansBold.svg#PetrobrasSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PetrobrasSansXtraBold';
+    src: url('../fonts/PetrobrasSans/XtraBold/PetrobrasSansXtraBold.eot');
+    src: url('../fonts/PetrobrasSans/XtraBold/PetrobrasSansXtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PetrobrasSans/XtraBold/PetrobrasSansXtraBold.woff2') format('woff2'),
+         url('../fonts/PetrobrasSans/XtraBold/PetrobrasSansXtraBold.woff') format('woff'),
+         url('../fonts/PetrobrasSans/XtraBold/PetrobrasSansXtraBold.ttf') format('truetype'),
+         url('../fonts/PetrobrasSans/XtraBold/PetrobrasSansXtraBold.svg#PetrobrasSansXtraBold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+// -------------------------------------
+// Font Weights
+// -------------------------------------
+
+$font-weight--thin   : 100;
+$font-weight--light  : 300;
+$font-weight--medium : 400;
+$font-weight--bold   : 700;
+$font-weight--bolder : 900;
+
+// -------------------------------------
+// Base
+// -------------------------------------
+
+$em-base : 16px;
+
+$base-font-size   : 100%;
+$base-line-height : 150%;
+
+$small-font-size  : 60%;
+
+$letter-space     : 1px;
+
+// -------------------------------------
+// Body
+// -------------------------------------
+
+$body-font-color  : $base-color;
+$body-font-family : $font-family--sans-serif;
+$body-font-weight : $font-weight--medium;
+$body-font-style  : normal;
+
+// -------------------------------------
+// Headers
+// -------------------------------------
+
+$header-font-family    : $font-family--primary;
+$header-font-weight    : $font-weight--medium;
+$header-font-style     : normal;
+$header-font-color     : $base-color;
+$header-line-height    : 1.4;
+$header-top-margin     : .2em;
+$header-bottom-margin  : .5em;
+$header-text-rendering : optimizeLegibility;
+
+$h1-font-size: em(44px);
+$h2-font-size: em(37px);
+$h3-font-size: em(27px);
+$h4-font-size: em(23px);
+$h5-font-size: em(18px);
+$h6-font-size: 1em;
+
+// -------------------------------------
+// Paragraph
+// -------------------------------------
+
+$p-font-family       : inherit;
+$p-font-weight       : $font-weight--medium;
+$p-font-size         : 1em;
+$p-line-height       : 1.6;
+$p-margin-bottom     : em(20px);
+$p-aside-font-size   : em(14px);
+$p-aside-line-height : 1.35;
+$p-aside-font-style  : italic;
+$p-text-rendering    : optimizeLegibility;
+
+// -------------------------------------
+// Hr
+// -------------------------------------
+
+$hr-border-width: 1px;
+$hr-border-style: solid;
+$hr-border-color: #ccc;
+$hr-margin: em(20px);
+
+// -------------------------------------
+// Breakpoints
+// -------------------------------------
+
+$breakpoint--tiny		: 1px;
+$breakpoint--small		: 769px;
+$breakpoint--normal		: 960px;
+$breakpoint--large		: 1220px;
+
+// -------------------------------------
+// Border radius
+// -------------------------------------
+
+$br--default    : .4em;
+$br--round      : 50%;
+
+// -------------------------------------
+// Transitions
+// -------------------------------------
+
+$trns-duration  : .3s;
+
+// -------------------------------------
+// Path to Assets
+// -------------------------------------
+
+$path--rel      : "../img";

@@ -1,0 +1,84 @@
+.container-faleconosco
+{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 630px;
+
+	.quadro-fale
+	{
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+		border-radius: 10px;
+		padding: 20px 40px 60px 40px;
+
+		.form-control
+		{
+			height: 50px;
+			border-color: #A1D7B7;
+			color:#19AC53;
+			font-family: 'PetrobrasSansRegular';
+
+			option
+			{
+				color: #0C8542 !important;
+				font-family: 'PetrobrasSansBold';
+				font-weight: bold;	
+				opacity: 1;	  
+				font-size: 14;
+			}
+		}
+
+		textarea.form-control 
+		{
+		    min-height: 200px;
+		}
+
+
+	}
+}
+
+textarea::-webkit-input-placeholder 
+{ 
+	color: #0C8542 !important;
+	font-family: 'PetrobrasSansBold';
+	font-weight: bold;	
+	opacity: 1;	  
+	font-size: 14;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer-interna 
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+	
+	.container-faleconosco .quadro-fale
+	{	    
+	    margin-bottom: 30px;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+
+	.wrap-home .footer .txt-footer 
+	{
+	    padding-top: 68px;
+	    text-align: center;
+	}
+
+	.logo-footer img
+	{
+		float: none !important;
+		margin: 0 auto;
+	}
+}

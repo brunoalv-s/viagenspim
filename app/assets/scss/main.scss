@@ -1,0 +1,62 @@
+/*-----------------------------------------------------------------------------/
+ *  Project: #Título#
+ *  ===========================================
+ *
+ *
+ *  TABLE OF CONTENTS
+ *
+ *  #SETTINGS................Global variables, config switches.
+ *  #TOOLS...................Default mixins and functions.
+ *  #GENERIC.................Ground-zero styles (resets, box-sizing).
+ *  #BASE....................Unclassed HTML elements (type selectors).
+ *  #OBJECTS.................Cosmetic-free design patterns.
+ *  #COMPONENTS..............Designed components, chunks of UI.
+ *
+ *
+ *
+ *  ATTENTION:
+ *  The following parts are imported in the right order
+ *  DO NOT CHANGE THE ORDER OF THE IMPORTS IN THIS FILE!!!!!
+ *
+ *  HINT:
+ *  Each of these parts live in their own directory. Further explanation is
+ *  provided in the dedicated folders.
+ *
+/-----------------------------------------------------------------------------*/
+
+// #TOOLS
+// ===========================================
+@import "1-Tools/_tools.scss";
+
+
+// #SETTINGS
+// ===========================================
+@import "2-Settings/_theme-colors.scss";
+@import "2-Settings/_settings.scss";
+
+
+// #GENERIC
+// ===========================================
+@import "3-Generic/_generic.scss";
+
+
+// #Base
+// ===========================================
+@import "4-Base/_base.scss";
+
+
+// #Objetos Reutilizáveis
+// ===========================================
+@import "5-Objects/_objects.scss";
+
+
+// #Layouts
+// ===========================================
+@import "6-Layouts/header";
+@import "6-Layouts/login";
+@import "6-Layouts/home";
+@import "6-Layouts/fale-conosco";
+@import "6-Layouts/meus-dados";
+
+@import "6-Layouts/new-home";
+@import "6-Layouts/footer";
