@@ -1,0 +1,44 @@
+.wrapper-orleans {
+  background-image: url(../img/orleans/bg-body-orleans.png);
+  background-position: 0 -55px;
+  background-repeat: no-repeat;
+  padding: 4em 0 0;
+  overflow: hidden;
+
+  .banner-home {
+    display: flex;
+    justify-content: center;
+    padding: 8em 0;
+    position: relative;
+
+    img {
+
+    }
+
+    @media (min-width: 1200px) {
+      &:before {
+        content: '';
+        width: 567px;
+        height: 593px;
+        background-image: url(../img/orleans/left.png);
+        position: absolute;
+        top: 10%;
+        left: -10%;
+      }
+      &::after {
+        content: '';
+        width: 593px;
+        height: 593px;
+        background-image: url(../img/orleans/right.png);
+        position: absolute;
+        top: 10%;
+        right: -10%;
+      }
+    }
+
+  }
+
+  > .footer {
+    margin-top: 4em !important;
+  }
+}
